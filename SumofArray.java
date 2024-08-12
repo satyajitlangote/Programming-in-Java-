@@ -1,4 +1,4 @@
-public class Array3 
+public class SumofArray
 {
     public static void main(String args[])
     {
