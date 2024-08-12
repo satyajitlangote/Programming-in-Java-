@@ -1,4 +1,4 @@
-public class Array2 
+public class SquareQubesArray
 {
     public static void main(String args[])
     {
