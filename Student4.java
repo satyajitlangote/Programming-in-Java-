@@ -1,4 +1,4 @@
-// java parametrized constructor 
+// Parameterized Constructor 
 class Student4
 {
     int id;
@@ -10,13 +10,13 @@ class Student4
     }
     void display()
     {
-        System.out.println(id+ "   "+name+"   ");
+        System.out.println(id+"    "+name);
     }
     public static void main(String args[])
     {
-        Student4 s1=new Student4(111,"Satyajit");
-        Student4 s2=new Student4(112,"Rohit ");
+        Student4 s1=new Student4(101,"Satyajit Langote");
+        Student4 s2=new Student4(102,"Shree ");
         s1.display();
         s2.display();
-    }
+    } 
 }
