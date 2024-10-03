@@ -1,0 +1,26 @@
+/* Multiple inheritance is not supported through class in 
+java but it is possible by interface 
+ */
+interface Printable 
+{   
+void print();   
+}   
+   
+interface Showable 
+{   
+void print();   
+}   
+   
+class testinterface1 implements Print able,Showable 
+{   
+public void print(){System.out.pri
+ ntln("Hello");}   
+    
+public static void main(String arg
+ s[]) 
+{   
+testinterface1 obj = new tes
+ tinterface1();   
+obj.print();   
+  }   
+}
