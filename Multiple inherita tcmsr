@@ -1,0 +1,33 @@
+/Multilevel Inheritance 
+Class X 
+{ 
+Public void methodX() 
+{ 
+System.out.println("Class X method"); 
+} 
+} 
+ 
+Class Y extends X 
+{ 
+publicvoid methodY() 
+{ 
+System.out.println("class Y method"); 
+} 
+} 
+ 
+Class Z extends Y 
+{ 
+publicvoid methodZ() 
+{ 
+System.out.println("class Z method"); 
+} 
+Public static void main(String args[]) 
+{ 
+     Z obj =new Z(); 
+     obj.methodX();//calling grand 
+parent class method 
+     obj.methodY();//calling parent 
+class method 
+     obj.methodZ();//calling local 
+method 
+} 
